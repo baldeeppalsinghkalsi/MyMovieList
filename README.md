@@ -1,8 +1,26 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Movie Browser 🚀
 
-Currently, two official plugins are available:
+A simple React project built with Vite to help you browse movies and store your favorites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+✅ React Router for navigation  
+✅ State management with useState & useEffect  
+✅ Reusable components  
+✅ Styled with CSS  
+
+## Screenshots  
+### 🏠 Home Page  
+![Home Page](images/home.png)  
+
+### ⭐ Favorites Page  
+![Favorites Page](images/favorites.png)  
+
+## Project Structure  
+```
+/src
+ ├── components/     # Reusable UI components
+ ├── pages/          # Home and Favorites pages
+ ├── App.jsx         # Main App component
+ ├── main.jsx        # Entry point
+```
