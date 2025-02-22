@@ -14,10 +14,14 @@ h4{
   font-size: 1.5rem;
   font-weight: bold;
 }
-
+.link{
+  color: white;
+  text-decoration: none;
+}
 .navbar-links {
   display: flex;
   gap: 2rem;
+  color: white;
 }
 
 .nav-link {
@@ -25,6 +29,7 @@ h4{
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.2s;
+  color: white;
 }
 
 .nav-link:hover {
